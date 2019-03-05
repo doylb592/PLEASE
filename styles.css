@@ -41,17 +41,6 @@ margin-left: auto;
 margin-right: auto;
 }
 
-#container {
-min-height:100%;
-position:relative;
-margin-bottom: -50px;
-z-index: 1;
-
-padding: 120px 0 600px;
-box-shadow: 0 3px 3px rgba(0,0,0,0.2);
-}
-
-
 
 /*-------------------------------
 ---------STICKY HEADER----------
@@ -68,6 +57,7 @@ text-align: center;
 position: fixed; /* Set the navbar to fixed position */
 top: 0; /* Position the navbar at the top of the page */
 width: 100%; /* Full width */
+left: 0;
 }
 
 .navbar a {
@@ -253,6 +243,7 @@ position:absolute;
 width:100%;
 height:auto;
 padding-top: 10%;
+left: 0;
 }
 
 #main > div{
@@ -269,6 +260,7 @@ background: #E3E1E2;
 border-color: white;
 border-width: 4px;
 border-style: solid;
+left: 0;
 }
 
 a.title-header-text {
@@ -369,9 +361,8 @@ text-align: center;
 padding-top: 20%;
 padding-bottom: 10%;
 background: #E3E1E2;
-border-color: white;
-border-width: 4px;
-border-style: solid;
+left:0;
+position: relative;
 }
 
 .about-header-text {
@@ -388,11 +379,13 @@ height: auto;
 text-align: left;
 padding-top: 2%;
 padding-bottom: 2%;
-padding-left: 2%;
+padding-left: 1%;
 background: #222222;
 border-top-color: white;
 border-top-width: 4px;
 border-top-style: solid;
+position: relative;
+left: 0;
 }
 
 .about-title-text {
@@ -405,8 +398,9 @@ text-decoration: none;
 
 #about-main{
 display: block;
-position:absolute;
+position:relative;
 width:100%;
+left: 0;
 }
 
 #about-main > div{
@@ -451,6 +445,7 @@ border-color: white;
 border-width: 4px;
 border-style: solid;
 position: relative;
+left: 0;
 }
 
 /* BIOS */
@@ -500,6 +495,7 @@ border-width: 4px;
 border-style: solid;
 border-bottom-left-radius: 25px;
 border-bottom-right-radius: 25px;
+left: 0;
 }
 
 
