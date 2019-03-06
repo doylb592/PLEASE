@@ -360,6 +360,7 @@ text-align: center;
 padding-top: 20%;
 padding-bottom: 10%;
 background: #E3E1E2;
+overflow: hidden;
 }
 
 .about-header-text {
