@@ -235,6 +235,10 @@ color: tomato;
 -----------HOME PAGE-----------
 -------------------------------*/
 
+#container{
+  position: relative;
+}
+
 /* ROW ONE*/
 
 #main{
@@ -344,10 +348,12 @@ position: relative;
 footer {
 background: #F0EFF5;
 width: 100%;
+height: 50px;
 font-family: 'Nanum Gothic', sans-serif;
 font-size: 15px;
-padding-top: 10%;
+padding-top: 1%;
 text-align: center;
+position:static;
 }
 
 /* ABOUT PAGE */
@@ -384,7 +390,7 @@ background: #222222;
 border-top-color: white;
 border-top-width: 4px;
 border-top-style: solid;
-       
+
 overflow: hidden;
 }
 
@@ -451,7 +457,7 @@ left: 0;
 /* BIOS */
 
 .predictions-box-img {
-background-color: #F7F7F7;
+background-color: #ACA7A6;
 width: 100%;
 height: auto;
 border-bottom-left-radius: 25px;
@@ -878,7 +884,7 @@ text-decoration: none;
 #about-title {
 width: 100%;
 height: auto;
-text-align: left;
+text-align: center;
 padding-top: 4%;
 padding-bottom: 4%;
 padding-left: 2%;
@@ -890,7 +896,7 @@ border-top-style: solid;
 
 .about-title-text {
 color: white;
-font-size: 60px;
+font-size: 45px;
 line-height: 130%;
 font-family: 'Nanum Gothic', sans-serif;
 text-decoration: none;
@@ -898,7 +904,7 @@ text-decoration: none;
 
 #about-main{
 display: block;
-position:absolute;
+position:relative;
 width:100%;
 }
 
@@ -957,6 +963,7 @@ border-bottom-right-radius: 25px;
 display: block;
 margin-left: auto;
 margin-right: auto;
+background-color: #E3E1E2;
 }
 
 .bio-title {
