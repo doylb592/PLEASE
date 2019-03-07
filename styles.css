@@ -550,9 +550,6 @@ margin-right: auto;
 #container {
 min-height:100%;
 position:relative;
-margin-bottom: -50px;
-z-index: 1;
-
 padding: 120px 0 600px;
 box-shadow: 0 3px 3px rgba(0,0,0,0.2);
 }
