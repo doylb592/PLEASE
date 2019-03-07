@@ -237,16 +237,17 @@ color: tomato;
 
 #container{
   position: relative;
+  padding-top: 10%;
+  max-width: 100%;
 }
 
 /* ROW ONE*/
 
 #main{
 display: block;
-position:absolute;
+position:relative;
 width:100%;
 height:auto;
-padding-top: 10%;
 left: 0;
 overflow: hidden;
 }
@@ -259,7 +260,6 @@ float:left;
 width: 32.5%;
 height: 100px;
 text-align: center;
-padding-top: 10%;
 padding-bottom: 10%;
 background: #E3E1E2;
 border-color: white;
@@ -271,7 +271,6 @@ left: 0;
 a.title-header-text {
 color: gray;
 font-size: 20px;
-line-height: 120%;
 font-family: 'Nanum Gothic', sans-serif;
 text-decoration: none;
 }
@@ -303,7 +302,6 @@ margin-top: -35%;
 width: 40%;
 height: 100px;
 text-align: center;
-margin-top: 28.5%;
 padding-top: 10%;
 padding-bottom: 10%;
 background: #E3E1E2;
@@ -317,7 +315,6 @@ position: relative;
 width: 58%;
 height: 100px;
 text-align: center;
-margin-top: 28.5%;
 padding-top: 10%;
 padding-bottom: 10%;
 background: #E3E1E2;
@@ -331,7 +328,6 @@ position: relative;
 width: 32.5%;
 height: 100px;
 text-align: center;
-margin-top: 57%;
 padding-top: 10%;
 padding-bottom: 10%;
 background: #E3E1E2;
@@ -362,7 +358,7 @@ position:static;
 width: 100%;
 height: auto;
 text-align: center;
-padding-top: 20%;
+padding-top: 10%;
 padding-bottom: 10%;
 background: #E3E1E2;
 overflow: hidden;
@@ -406,7 +402,8 @@ text-decoration: none;
 display: block;
 position:relative;
 width:100%;
-left: 0%;
+left: 4px;
+max-width: 100%;
 }
 
 #about-main > div{
